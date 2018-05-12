@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test Suite" duration-ms="6157" started-at="2018-05-12T10:37:28Z" finished-at="2018-05-12T10:37:34Z">
+    <groups>
+    </groups>
+    <test name="chromeWindowsLocal" duration-ms="6157" started-at="2018-05-12T10:37:28Z" finished-at="2018-05-12T10:37:34Z">
+      <class name="com.demo.test.FirstProgram">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="beforeSuite" is-config="true" duration-ms="60" started-at="2018-05-12T10:37:28Z" finished-at="2018-05-12T10:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-05-12T10:37:28Z" finished-at="2018-05-12T10:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="beforeMethod" is-config="true" duration-ms="136" started-at="2018-05-12T10:37:28Z" finished-at="2018-05-12T10:37:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.test.FirstProgram.Type1WebCall(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Type1WebCall(java.util.Hashtable)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="Type1WebCall" duration-ms="4345" started-at="2018-05-12T10:37:28Z" data-provider="Type1WebCallDP" finished-at="2018-05-12T10:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ResourcePath=/v1/search, ParamaValue3=, Param3=apiKey, Param2=format, Param1=query, RunMode=Y, ParamValue2=json, BaseURI=http://api.walmartlabs.com, ParamValue1=ipod}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type1WebCall -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="afterMethod" is-config="true" duration-ms="330" started-at="2018-05-12T10:37:33Z" finished-at="2018-05-12T10:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Type1WebCall status=SUCCESS method=FirstProgram.Type1WebCall(java.util.Hashtable)[pri:0, instance:com.demo.test.FirstProgram@41e36e46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Type2WebCall(java.util.Hashtable)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="Type2WebCall" duration-ms="992" started-at="2018-05-12T10:37:33Z" data-provider="Type2WebCallDP" finished-at="2018-05-12T10:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{StatusCode=202.0, RunMode=Y, ContentType=application/json; charset=utf-8, EndPointURL=http://api.walmartlabs.com/v1/search?query=motorola&format=json&apiKey=xyc52sk8fnkc954nvcpspb52, ResourcePath=/v1/search}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type2WebCall -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-05-12T10:37:33Z" finished-at="2018-05-12T10:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.demo.test.FirstProgram.Type2WebCall(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="afterMethod" is-config="true" duration-ms="143" started-at="2018-05-12T10:37:34Z" finished-at="2018-05-12T10:37:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Type2WebCall status=SUCCESS method=FirstProgram.Type2WebCall(java.util.Hashtable)[pri:0, instance:com.demo.test.FirstProgram@41e36e46] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-05-12T10:37:34Z" finished-at="2018-05-12T10:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.demo.test.FirstProgram@41e36e46]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-05-12T10:37:34Z" finished-at="2018-05-12T10:37:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.demo.test.FirstProgram -->
+    </test> <!-- chromeWindowsLocal -->
+  </suite> <!-- Automation Test Suite -->
+</testng-results>
